@@ -26,9 +26,9 @@ class _DetailPageState extends State<DetailPage> {
                 borderRadius: BorderRadius.only(
                     bottomLeft: Radius.circular(30.0),
                     bottomRight: Radius.circular(30.0)),
-                child: FadeInImage(
-                    placeholder: AssetImage('assets/logo.png'),
-                    image: NetworkImage(widget.imageUrl),
+                child: FadeInImage.memoryNetwork(
+                    placeholder: kTransparentImage,
+                    image: widget.imageUrl,
                     fit: BoxFit.cover),
               )),
           Align(

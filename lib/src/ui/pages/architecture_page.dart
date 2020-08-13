@@ -10,29 +10,7 @@ class ArchitecturePage extends StatelessWidget {
     return Scaffold(
         body: ListView(children: <Widget>[
       //
-      SizedBox(height: 20.0),
-      Padding(
-        padding: EdgeInsets.only(left: 15.0, right: 15.0),
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: <Widget>[
-            IconButton(
-              onPressed: () {},
-              icon: Icon(Icons.menu),
-              color: Colors.black,
-            ),
-            Container(
-              height: 40.0,
-              width: 40.0,
-              decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(7.0),
-                  image: DecorationImage(
-                      image: AssetImage('assets/logo.png'), fit: BoxFit.cover)),
-            )
-          ],
-        ),
-      ),
-      //
+
       SizedBox(height: 20.0),
       Padding(
           padding: EdgeInsets.only(left: 20.0),
@@ -84,7 +62,7 @@ class ArchitecturePage extends StatelessWidget {
                         child: Container(
                           height: 200.0,
                           decoration: BoxDecoration(
-                              color: Colors.white,
+                              // color: Colors.white,
                               borderRadius:
                                   BorderRadius.all(Radius.circular(10.0)),
                               boxShadow: [
