@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:transparent_image/transparent_image.dart';
+import '../widgets/custom_network_image.dart';
 
 class DetailPage extends StatefulWidget {
   final name;
@@ -26,10 +26,10 @@ class _DetailPageState extends State<DetailPage> {
                 borderRadius: BorderRadius.only(
                     bottomLeft: Radius.circular(30.0),
                     bottomRight: Radius.circular(30.0)),
-                child: FadeInImage.memoryNetwork(
-                    placeholder: kTransparentImage,
-                    image: widget.imageUrl,
-                    fit: BoxFit.cover),
+                child: customNetworkImage(
+                  widget.imageUrl,
+                  fit: BoxFit.cover,
+                ),
               )),
           Align(
             alignment: Alignment.topLeft,

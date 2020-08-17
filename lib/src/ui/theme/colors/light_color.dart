@@ -19,8 +19,8 @@ class LightColor {
 
   static const Color secondaryColor = const Color(0xff4cd1bc);
   static const Color secondaryLightColor = const Color(0xff85ffee);
-  static const Color primaryColor = const Color(0xff8873f4);
-  static const Color primaryLightColor = const Color(0xff9489f4);
+  static const Color primaryColor = const Color(0xFF11249F);
+  static const Color primaryLightColor = const Color(0xFF3383CD);
   static const Color primaryExtraLightColor = const Color(0xffb1a5f6);
   static const Color buttonColor = const Color(0xff71b4fb);
   static const Color disableButtonColor = const Color(0xffb8bfce);
