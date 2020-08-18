@@ -36,11 +36,6 @@ Home Screen               |  Domains Screen               | Domain (Architecture
 4.  Push to the branch (git push origin my-new-feature)
 5.  Create new Pull Request
 
-
-## Visitors Count
-
-<img align="left" src = "https://profile-counter.glitch.me/golden_ratio/count.svg" alt ="Loading">
-
 ## Timeline
 
 | Date | Feature(s) | Status | 
@@ -49,3 +44,8 @@ Home Screen               |  Domains Screen               | Domain (Architecture
 | 12/08/2020 | Main Pages | :heavy_check_mark: |
 | 15/08/2020 | Firestore Integration | :heavy_check_mark: |
 | 17/08/2020 | Firebase Storage | :heavy_check_mark: |
+
+
+## Visitors Count
+
+<img align="left" src = "https://profile-counter.glitch.me/golden_ratio/count.svg" alt ="Loading">
