@@ -3,7 +3,8 @@
 It shows the information about the applications of Golden Ratio in various domains. 
 
 ## Features
-* 
+* Share Detail usage As Image
+* Dark Mode
 
 ## Download App
 <a href=""><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="200"></img></a>
@@ -14,7 +15,7 @@ It shows the information about the applications of Golden Ratio in various domai
      <summary> Click to expand </summary>
      
 * [cached_network_image](https://pub.dev/packages/cached_network_image)
-
+* [esys_flutter_share]() for Sharing Detail card.
      
 </details>
 
@@ -36,11 +37,6 @@ Home Screen               |  Domains Screen               | Domain (Architecture
 4.  Push to the branch (git push origin my-new-feature)
 5.  Create new Pull Request
 
-
-## Visitors Count
-
-<img align="left" src = "https://profile-counter.glitch.me/golden_ratio/count.svg" alt ="Loading">
-
 ## Timeline
 
 | Date | Feature(s) | Status | 
@@ -49,3 +45,8 @@ Home Screen               |  Domains Screen               | Domain (Architecture
 | 12/08/2020 | Main Pages | :heavy_check_mark: |
 | 15/08/2020 | Firestore Integration | :heavy_check_mark: |
 | 17/08/2020 | Firebase Storage | :heavy_check_mark: |
+
+
+## Visitors Count
+
+<img align="left" src = "https://profile-counter.glitch.me/golden_ratio/count.svg" alt ="Loading">
