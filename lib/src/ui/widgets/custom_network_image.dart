@@ -5,6 +5,8 @@ Widget customNetworkImage(String path,
     {BoxFit fit = BoxFit.contain, Widget placeholder}) {
   assert(path != null);
   return CachedNetworkImage(
+    height: 200.0,
+    width: 300.0,
     fit: fit,
     imageUrl: path,
     placeholderFadeInDuration: Duration(milliseconds: 500),

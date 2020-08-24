@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:golden_ratio/src/ui/theme/colors.dart';
 import '../widgets/custom_appbar.dart';
 import 'domain_page.dart';
 
@@ -21,10 +22,10 @@ class _DomainsPageState extends State<DomainsPage> {
                 SizedBox(height: 10.0),
                 Text('Explore Domains',
                     style: TextStyle(
-                        color: Theme.of(context).primaryColor,
-                        fontFamily: 'Montserrat',
+                        color: AppColor.primary,
+                        fontFamily: 'Poppins',
                         fontWeight: FontWeight.w600,
-                        fontSize: 17.0)),
+                        fontSize: 20.0)),
                 SizedBox(height: 20.0),
                 Container(
                   height: 150.0,
@@ -33,12 +34,12 @@ class _DomainsPageState extends State<DomainsPage> {
                     scrollDirection: Axis.horizontal,
                     child: Row(
                       children: <Widget>[
-                        _buildListItem('Architecture', Color(0xFFD82D40)),
-                        _buildListItem('Geometry', Color(0xFF90AF17)),
-                        _buildListItem('Finance', Color(0xFF2DBBD8)),
-                        _buildListItem('Art', Color(0xFFD82D40)),
-                        _buildListItem('Nature', Color(0xFF90AF17)),
-                        _buildListItem('Logo Design', Color(0xFF2DBBD8)),
+                        _buildListItem('Architecture'),
+                        _buildListItem('Art'),
+                        _buildListItem('Finance'),
+                        _buildListItem('Geometry'),
+                        _buildListItem('Logo'),
+                        _buildListItem('Nature'),
                       ],
                     ),
                   ),
@@ -47,7 +48,7 @@ class _DomainsPageState extends State<DomainsPage> {
     ]);
   }
 
-  Widget _buildListItem(String name, Color color) {
+  Widget _buildListItem(String name) {
     return InkWell(
         onTap: () {
           Navigator.of(context).push((MaterialPageRoute(
@@ -62,8 +63,12 @@ class _DomainsPageState extends State<DomainsPage> {
                 height: 300.0,
                 width: 150.0,
                 decoration: BoxDecoration(
-                  color: color,
+                  color: AppColor.surface,
                   borderRadius: BorderRadius.circular(10.0),
+                  border: Border.all(
+                    color: AppColor.border,
+                    width: 4,
+                  ),
                   boxShadow: [
                     BoxShadow(
                         blurRadius: 6.0,
@@ -74,9 +79,9 @@ class _DomainsPageState extends State<DomainsPage> {
                 child: Center(
                     child: Text(name,
                         style: TextStyle(
-                            fontFamily: 'Montserrat',
+                            fontFamily: 'Poppins',
                             fontWeight: FontWeight.w600,
-                            color: Colors.white,
-                            fontSize: 14.0))))));
+                            color: AppColor.textDetail,
+                            fontSize: 20.0))))));
   }
 }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../theme/colors.dart';
 
 class CustomAppBar extends StatelessWidget {
   final title;
@@ -14,7 +15,7 @@ class CustomAppBar extends StatelessWidget {
               gradient: LinearGradient(
                 begin: Alignment.topRight,
                 end: Alignment.bottomLeft,
-                colors: [Color(0xFF3383CD), Color(0xFF11249F)],
+                colors: [AppColor.primaryVariant, AppColor.primary],
               ),
             ),
             child: Column(
@@ -22,13 +23,15 @@ class CustomAppBar extends StatelessWidget {
                 children: <Widget>[
                   // put theme toggler
                   SizedBox(height: 50.0),
-                  Padding(
-                    padding: EdgeInsets.only(left: 10, right: 10),
-                    child: Text(this.title,
-                        style: TextStyle(
-                            color: Colors.white,
-                            fontWeight: FontWeight.w600,
-                            fontSize: 50.0)),
+                  Center(
+                    child: Padding(
+                      padding: EdgeInsets.only(left: 10, right: 10),
+                      child: Text(this.title,
+                          style: TextStyle(
+                              color: AppColor.surface,
+                              fontWeight: FontWeight.w600,
+                              fontSize: 50.0)),
+                    ),
                   )
                 ])));
   }

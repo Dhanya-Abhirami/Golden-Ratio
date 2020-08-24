@@ -2,6 +2,7 @@ import 'dart:math' as math;
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:golden_ratio/src/ui/theme/colors.dart';
 import '../widgets/custom_appbar.dart';
 
 class PlotPage extends StatefulWidget {
@@ -11,7 +12,7 @@ class PlotPage extends StatefulWidget {
 
 class _PlotPageState extends State<PlotPage>
     with SingleTickerProviderStateMixin {
-  bool showDots = false, showPath = true;
+  bool showDots = true, showPath = true;
   AnimationController _controller;
 
   @override
@@ -27,6 +28,7 @@ class _PlotPageState extends State<PlotPage>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: AppColor.background,
       body: SafeArea(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -36,7 +38,7 @@ class _PlotPageState extends State<PlotPage>
             AnimatedBuilder(
               animation: _controller,
               builder: (context, child) {
-                print('${_controller.value}');
+                // print('${_controller.value}');
                 return Expanded(
                   child: Center(
                     child: CustomPaint(
@@ -50,55 +52,14 @@ class _PlotPageState extends State<PlotPage>
                 );
               },
             ),
-            Row(
-              children: <Widget>[
-                Padding(
-                  padding: const EdgeInsets.only(left: 24.0, right: 0.0),
-                  child: Text('Show Dots'),
-                ),
-                Switch(
-                  value: showDots,
-                  onChanged: (value) {
-                    setState(() {
-                      showDots = value;
-                    });
-                  },
-                ),
-                Padding(
-                  padding: const EdgeInsets.only(left: 24.0, right: 0.0),
-                  child: Text('Show Path'),
-                ),
-                Switch(
-                  value: showPath,
-                  onChanged: (value) {
-                    setState(() {
-                      showPath = value;
-                    });
-                  },
-                ),
-              ],
-            ),
-            Padding(
-              padding: const EdgeInsets.only(left: 24.0),
-              child: Text('Progress'),
-            ),
-            Slider(
-              value: _controller.value,
-              min: 0.0,
-              max: 1.0,
-              onChanged: (value) {
-                setState(() {
-                  _controller.value = value;
-                });
-              },
-            ),
             Center(
               child: RaisedButton(
+                color: AppColor.border,
                 onPressed: () {
                   _controller.reset();
                   _controller.forward();
                 },
-                child: Text('Animate'),
+                child: Text('Draw'),
               ),
             ),
           ],
@@ -125,7 +86,7 @@ class PlotPagePainter extends CustomPainter {
   bool showDots, showPath;
 
   Paint _paint = Paint()
-    ..color = Colors.deepPurple
+    ..color = AppColor.secondary
     ..strokeWidth = 4.0
     ..style = PaintingStyle.stroke
     ..strokeCap = StrokeCap.round;
@@ -151,12 +112,12 @@ class PlotPagePainter extends CustomPainter {
   Path createPlotPagePath(Size size) {
     double n, radius = 0, angle = 0;
     Path path = Path();
-    for (n = 0; n < 20; n += 0.05) {
+    for (n = 0; n < 30; n += 0.05) {
       radius = 1.618013 * math.exp(0.30635 * n);
       angle = n;
       var x = radius * math.cos(angle);
       var y = radius * math.sin(angle);
-      path.lineTo(x, y);
+      path.lineTo(x / 100, y / 100);
     }
     return path;
   }
