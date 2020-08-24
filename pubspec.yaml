@@ -21,8 +21,6 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
-  hive:
-  provider:
   cached_network_image:
   curved_navigation_bar:
   esys_flutter_share:
