@@ -15,7 +15,10 @@ It shows the information about the applications of Golden Ratio in various domai
      <summary> Click to expand </summary>
      
 * [cached_network_image](https://pub.dev/packages/cached_network_image)
-* [esys_flutter_share]() for Sharing Detail card.
+* [esys_flutter_share](https://pub.dev/packages/esys_flutter_share) 
+* [curved_navigation_bar](https://pub.dev/packages/curved_navigation_bar)
+* [firebase_storage](https://pub.dev/packages/firebase_storage)
+* [cloud_firestore](https://pub.dev/packages/cloud_firestore)
      
 </details>
 
