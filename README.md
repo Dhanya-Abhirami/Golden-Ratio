@@ -4,7 +4,7 @@ It shows the information about the applications of Golden Ratio in various domai
 
 ## Features
 * Share Detail usage As Image
-* Dark Mode
+* Default Dark Mode
 
 ## Download App
 <a href=""><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="200"></img></a>
