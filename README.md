@@ -21,9 +21,13 @@ It shows the information about the applications of Golden Ratio in various domai
 
 ## App Screenshots
 
-Home Screen               |  Domains Screen               | Domain (Architecture)               |  Detail (Taj Mahal)
-:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![]()|![]()|![]()|![]()|
+Home Screen               |  Domains Screen               | Golden Spiral               
+:-------------------------:|:-------------------------:|:-------------------------:|
+![](https://github.com/Dhanya-Abhirami/golden_ratio/blob/master/screenshots/domains.jpeg?raw=true)|![](https://github.com/Dhanya-Abhirami/golden_ratio/blob/master/screenshots/domains.jpeg?raw=true)|![](https://github.com/Dhanya-Abhirami/golden_ratio/blob/master/screenshots/golden_spiral.jpeg?raw=true)|
+
+Domain (Architecture)               |  Detail (Taj Mahal)               | Share Screen               |  
+:-------------------------:|:-------------------------:|:-------------------------:|
+![](https://github.com/Dhanya-Abhirami/golden_ratio/blob/master/screenshots/domain.jpeg?raw=true)|![](https://github.com/Dhanya-Abhirami/golden_ratio/blob/master/screenshots/detail.jpeg?raw=true)|![](https://github.com/Dhanya-Abhirami/golden_ratio/blob/master/screenshots/share.jpeg?raw=true)|
 
 ## Directory Structure
 <details>
