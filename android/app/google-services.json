@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "43595367131",
-    "firebase_url": "https://golden-ratio-e9d6e.firebaseio.com",
-    "project_id": "golden-ratio-e9d6e",
-    "storage_bucket": "golden-ratio-e9d6e.appspot.com"
+    "project_number": "32031434560",
+    "firebase_url": "https://goldenratio-e1ce7.firebaseio.com",
+    "project_id": "goldenratio-e1ce7",
+    "storage_bucket": "goldenratio-e1ce7.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:43595367131:android:2b4af0cfcaf90b05d602fe",
+        "mobilesdk_app_id": "1:32031434560:android:f970e861d1f48ad47e7ca5",
         "android_client_info": {
           "package_name": "com.example.golden_ratio"
         }
       },
       "oauth_client": [
         {
-          "client_id": "43595367131-hojg2hper7argi0rvnte825enk0eetn4.apps.googleusercontent.com",
+          "client_id": "32031434560-be1u2ukuru5bd8muh63pam9tghar5b3l.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCIiPm6W1K9Kx4ZIFq208IWQsxuOScgtT8"
+          "current_key": "AIzaSyCG_UcVOo5ORs9WWI0mMn89BJQY5jdd-Cc"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "43595367131-hojg2hper7argi0rvnte825enk0eetn4.apps.googleusercontent.com",
+              "client_id": "32031434560-be1u2ukuru5bd8muh63pam9tghar5b3l.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

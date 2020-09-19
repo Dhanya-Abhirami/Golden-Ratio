@@ -45,6 +45,7 @@ class DomainPage extends StatelessWidget {
                                   name: documentSnapshot['name'], imageUrl: '');
                             }
                             print('hi4');
+                            print(snapshot.data.documents.length);
                             return InkWell(
                                 // splashColor: AppColor.grey,
                                 onTap: () {
