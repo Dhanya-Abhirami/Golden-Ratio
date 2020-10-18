@@ -19,7 +19,7 @@ It shows the information about the applications of Golden Ratio in various domai
 * [curved_navigation_bar](https://pub.dev/packages/curved_navigation_bar)
 * [firebase_storage](https://pub.dev/packages/firebase_storage)
 * [cloud_firestore](https://pub.dev/packages/cloud_firestore)
-     
+* [Icon Generation](https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html)
 </details>
 
 ## App Screenshots
