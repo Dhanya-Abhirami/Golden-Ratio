@@ -6,21 +6,19 @@ It shows the information about the applications of Golden Ratio in various domai
 * Share Detail usage As Image
 * Default Dark Mode
 
+## Dependencies
+* Database - Google Firebase
+* Application - Flutter
+     * [cached_network_image](https://pub.dev/packages/cached_network_image)
+     * [esys_flutter_share](https://pub.dev/packages/esys_flutter_share) 
+     * [curved_navigation_bar](https://pub.dev/packages/curved_navigation_bar)
+     * [firebase_storage](https://pub.dev/packages/firebase_storage)
+     * [cloud_firestore](https://pub.dev/packages/cloud_firestore)
+     * [Icon Generation](https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html)
+
+<!--
 ## Download App
 <a href=""><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="200"></img></a>
-
-
-## Dependencies
-<details>
-     <summary> Click to expand </summary>
-     
-* [cached_network_image](https://pub.dev/packages/cached_network_image)
-* [esys_flutter_share](https://pub.dev/packages/esys_flutter_share) 
-* [curved_navigation_bar](https://pub.dev/packages/curved_navigation_bar)
-* [firebase_storage](https://pub.dev/packages/firebase_storage)
-* [cloud_firestore](https://pub.dev/packages/cloud_firestore)
-* [Icon Generation](https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html)
-</details>
 
 ## App Screenshots
 
@@ -31,12 +29,7 @@ Home Screen               |  Domains Screen               | Golden Spiral
 Domain (Architecture)               |  Detail (Taj Mahal)               | Share Screen               |  
 :-------------------------:|:-------------------------:|:-------------------------:|
 ![](https://github.com/Dhanya-Abhirami/golden_ratio/blob/master/screenshots/domain.jpeg?raw=true)|![](https://github.com/Dhanya-Abhirami/golden_ratio/blob/master/screenshots/detail.jpeg?raw=true)|![](https://github.com/Dhanya-Abhirami/golden_ratio/blob/master/screenshots/share.jpeg?raw=true)|
-
-## Directory Structure
-<details>
-     <summary> Click to expand </summary>
-</details>
-  
+--->
 ## Collaboration Guidelines
 1.  Fork it
 2.  Create your feature branch (git checkout -b my-new-feature)
