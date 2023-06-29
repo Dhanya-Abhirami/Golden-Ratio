@@ -3,7 +3,7 @@
 It shows the information about the applications of Golden Ratio in various domains. 
 
 ## Features
-* Share Detail usage As Image
+* Share details via messaging apps
 * Default Dark Mode
 
 ## Dependencies
